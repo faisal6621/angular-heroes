@@ -1,3 +1,7 @@
 <h1>{{title}}</h1>
-<app-heroes></app-heroes>
+<nav>
+    <a [routerLink]="['/dashboard']" routerLinkActive="router-link-active">Dashboard</a>
+    <a [routerLink]="['/heroes']" routerLinkActive="router-link-active">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
 <app-messages></app-messages>
