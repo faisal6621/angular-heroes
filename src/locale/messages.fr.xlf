@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="66abb23ed9adf4aa03eab3e4b75234d32748e44c" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ title }}"/></source>
+        <target>{{titleFr}}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f65253954b66e929a8b4d5ecaf61f9129f8cec64" datatype="html">
+        <source>Dashboard</source>
+        <target>Tableau de bord</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="33a29e29d6c1ae044e8e3350733a49c8dbeb18af" datatype="html">
+        <source>Heroes</source>
+        <target>Héros</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e4b195225a3865f61e138d15f29d9009d5ca95ff" datatype="html">
+        <source>Comic Heroes</source>
+        <target>Héros de bandes dessinées</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/heroes/heroes.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="213cb87bffcc51962494723660caa15b694bfc58" datatype="html">
+        <source>Hero name</source>
+        <target>Nom du héro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/heroes/heroes.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f6755cff4957d5c3c89bafce5651f1b6fa2b1fd9" datatype="html">
+        <source>Add</source>
+        <target>Ajouter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/heroes/heroes.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="593ec5217994abd7678ad258b88b7cfb5b26a58f" datatype="html">
+        <source>delete hero</source>
+        <target>supprimer le héros</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/heroes/heroes.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c49e69f4b76eba7795ec610995a643d3235993dc" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{hero.name | uppercase}}"/> Details</source>
+        <target>{{hero.name | uppercase}} Détails</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero-detail/hero-detail.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc80a1518bec685d290b88d25258b8530bcd9736" datatype="html">
+        <source>id: </source>
+        <target>identifiant: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero-detail/hero-detail.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20ad95afed1dffb708e17578f479b2cc146cb473" datatype="html">
+        <source>name: </source>
+        <target>Nom: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero-detail/hero-detail.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6fc2c1a8969bb0645d798d2066d264882d206fcc" datatype="html">
+        <source>name</source>
+        <target>Nom</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero-detail/hero-detail.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52c9a103b812f258bcddc3d90a6e3f46871d25fe" datatype="html">
+        <source>Save</source>
+        <target>enregistrer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero-detail/hero-detail.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cda31dbd724cf5f4fa7a4274d9120651490c8a8c" datatype="html">
+        <source>Back</source>
+        <target>retour</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero-detail/hero-detail.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ea965d544a7dfd8185064c52cdfff553cf94d585" datatype="html">
+        <source>Messages</source>
+        <target>messages</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/messages/messages.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="99ee4faa69cd2ea8e3678c1f557c0ff1f05aae46" datatype="html">
+        <source>Clear</source>
+        <target>clair</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/messages/messages.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8febbf66ec19fa6037919caf360d1ff7cb1115a0" datatype="html">
+        <source>Top Heroes</source>
+        <target>Top Héros</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c27c43ba5843a0c79cb1526bf6296208727912c0" datatype="html">
+        <source>Hero Search</source>
+        <target>Recherche de héros</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero-search/hero-search.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

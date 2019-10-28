@@ -1,15 +1,16 @@
-<h2>Comic Heroes</h2>
+<h2 i18n>Comic Heroes</h2>
 <div>
-  <label>Hero name:
+  <label>
+    <ng-container i18n>Hero name</ng-container>:
     <input #heroName />
   </label>
-  <button (click)="add(heroName.value); heroName.value=''">Add</button>
+  <button (click)="add(heroName.value); heroName.value=''" i18n>Add</button>
 </div>
 <ul class="heroes">
   <li *ngFor="let hero of heroes">
     <a [routerLink]="['/hero', hero.id]" routerLinkActive="router-link-active">
       <span class="badge">{{hero.id}}</span> {{hero.name}}
     </a>
-    <button class="delete" title="delete hero" (click)="delete(hero)">X</button>
+    <button class="delete" i18n-title title="delete hero" (click)="delete(hero)">X</button>
   </li>
 </ul>

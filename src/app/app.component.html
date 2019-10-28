@@ -1,7 +1,7 @@
-<h1>{{title}}</h1>
+<h1 i18n>{{title}}</h1>
 <nav>
-    <a [routerLink]="['/dashboard']" routerLinkActive="router-link-active">Dashboard</a>
-    <a [routerLink]="['/heroes']" routerLinkActive="router-link-active">Heroes</a>
+  <a [routerLink]="['/dashboard']" routerLinkActive="router-link-active" i18n>Dashboard</a>
+  <a [routerLink]="['/heroes']" routerLinkActive="router-link-active" i18n>Heroes</a>
 </nav>
 <router-outlet></router-outlet>
 <app-messages></app-messages>

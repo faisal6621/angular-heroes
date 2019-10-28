@@ -57,6 +57,14 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "fr": {
+              "aot": true,
+              "outputPath": "dist/angular-heroes-fr",
+              "baseHref": "/fr/",
+              "i18nFile": "src/locale/messages.fr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr"
             }
           }
         },
@@ -68,6 +76,9 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-heroes:build:production"
+            },
+            "fr": {
+              "browserTarget": "angular-heroes:build:fr"
             }
           }
         },
@@ -120,6 +131,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-heroes"
 }
